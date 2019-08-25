@@ -1,8 +1,8 @@
 def roll_call_dwarves(array)
+  n = 1
   
   array.map { |i|
-  n = 1 
-  name = n + ". " + i
+  name = n.to_s + ". " + i
   puts name
   n += 1 
   }
