@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   
-  array.collect { |item|
+  array.map { |i|
+  n = 1 
   
   puts item
   
