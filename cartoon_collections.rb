@@ -3,10 +3,9 @@ def roll_call_dwarves(array)
   array.map { |i|
   n = 1 
   name = n.to_s + ". " + i
-  puts name 
   n += 1 
   }
-  
+  puts name
 end
 
 def summon_captain_planet# code an argument here
