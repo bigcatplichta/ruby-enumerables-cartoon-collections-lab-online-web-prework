@@ -13,7 +13,11 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  if array.each { 
+  if array.each { |wprd| word.split > 4 }
+    true 
+  else
+    false
+  end
 end
 
 def find_the_cheese# code an argument here
