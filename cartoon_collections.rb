@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  if array.each { |wprd| word.split > 4 }
+  if array.each { |word| word.split > 4 }
     true 
   else
     false
