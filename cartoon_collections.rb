@@ -14,6 +14,7 @@ end
 
 def long_planeteer_calls(array)
   array.any? { |word| word.count > 4 }
+  array.any?
 end
 
 # def find_the_cheese(array)
