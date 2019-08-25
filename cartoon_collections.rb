@@ -1,9 +1,9 @@
 def roll_call_dwarves(array)
-  number = 1 
+  
   array.each_with_index { |item, index|
   array[index] = item
-  puts number, item
-  number += 1 
+  puts item
+  
   }
   
 end
