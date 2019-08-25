@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
   array.map { |i|
   n = 1 
   name = n + ". " + i
+  puts name
   n += 1 
   }
   
