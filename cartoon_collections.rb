@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   
-  array.collect { |item, index|
-  array[index - 1] = item
+  array.collect { |item|
+  
   puts item
   
   }
