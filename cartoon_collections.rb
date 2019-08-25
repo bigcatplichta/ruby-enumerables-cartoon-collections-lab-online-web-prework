@@ -21,7 +21,10 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   array.each do |snack|
-    return snack if cheese_types.include?(snack)
+    if cheese_types.include?(snack)
+      snack
+    else
+      nil 
+    end 
   end
-
 end
